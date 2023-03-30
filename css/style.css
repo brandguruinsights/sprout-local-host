@@ -2998,11 +2998,7 @@ font-weight: 600;
     
         }
      }
-    @media only screen and (max-width:500px){
-        #oBack::first-letter {
-            padding-right: 17px;
-        }
-    }
+
     @media only screen and (max-width:500px){
         #oBack::first-letter {
             padding-right: 14px;
