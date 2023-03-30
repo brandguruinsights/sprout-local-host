@@ -2849,7 +2849,7 @@ font-weight: 600;
             flex-direction: column-reverse !important;   
         }
         #oBack::first-letter{  
-            padding-right: 4.1%;
+            padding-right: 3.1%;
         }
         .earth-col img {
             width: 100%;
