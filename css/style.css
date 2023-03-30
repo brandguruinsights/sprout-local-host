@@ -1484,25 +1484,28 @@ background-color: white;
 color: white;
 }
 .contact_card_one{
-    padding-top: 4%;
-    background: url('../images/greenish_blue.png');
-    color: white;
-    border-radius: 10px;
-    padding-bottom: 3%;
+    background: url('../images/contact1.png');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+padding:8% ;
 }
 .contact_card_two{
-    padding-top: 4%;
-    background: url('../images/blue_texture.png');
-    color: white;
-    border-radius: 10px;
-    padding-bottom: 3%;
+    background: url('../images/contact2.png');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+padding:8% ;
 }
 .contact_card_three{
-    padding-top: 4%;
-    background: url('../images/brown_texture.png');
+    background: url('../images/contact3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
-    border-radius: 10px;
-    padding-bottom: 3%;
+    padding:8% ;
 }
 .contact_card_heading{
     font-weight: 900;
