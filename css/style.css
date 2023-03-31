@@ -1490,22 +1490,29 @@ background-size: cover;
 background-position: center;
 color: white;
 padding:8% ;
+   
+    
+    
 }
 .contact_card_two{
+   
     background: url('../images/contact2.png');
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 color: white;
 padding:8% ;
+    
 }
 .contact_card_three{
+   
     background: url('../images/contact3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
     padding:8% ;
+        
 }
 .contact_card_heading{
     font-weight: 900;
@@ -2855,8 +2862,12 @@ font-weight: 600;
             padding-right: 3.1%;
         }
         .earth-col img {
-            width: 100%;
+            width: 60%;
             padding-top: 0%;
+            margin-left: 20%;;
+        }
+        .sprout-col-what {
+            font-size: 31px;
         }
         .earth-col p {
             padding-right: 0%;
@@ -2989,6 +3000,9 @@ font-weight: 600;
         font-size: 33px;
     
     }
+    .product_our{
+        line-height: 50px;
+    }
     }
      @media only screen and (max-width: 541px) {
         .why_all .col-6 {
@@ -3001,11 +3015,17 @@ font-weight: 600;
     
         }
      }
+ /*   @media only screen and (max-width:500px){
+        #oBack::first-letter {
+            padding-right: 17px;
+        }
+    } */
 
     @media only screen and (max-width:500px){
         #oBack::first-letter {
             padding-right: 14px;
         }
+       
     }
     @media only screen and (max-width: 498px){
         #product-inner-head{
@@ -3054,8 +3074,8 @@ font-weight: 600;
     @media only screen and (max-width:334px){
         
         #oBack_product::first-letter{    
-            padding-right: 8%;
-            padding-bottom: 1%;
+            padding-right: 9%;
+            padding-bottom: 2.6%;
           }
     }
     
@@ -3147,12 +3167,15 @@ font-weight: 600;
             padding-right: 6%;
             padding-bottom: 2%;
           }
+
+      
+       
     }
     @media only screen and (max-width:466px) and (min-width:390px) {
         
         #oBack_product::first-letter{    
             padding-right: 7%;
-            padding-bottom: 2%;
+            padding-bottom: 2.5%;
           }
     }
     @media only screen and (max-width:390px) and (min-width:334px) {
@@ -3177,7 +3200,8 @@ font-weight: 600;
         }
         #brochure_button{
             margin-left: 24%;
-        }
+        }      
+
     }
     @media only screen and (max-width:500px) and (min-width:444px){
         #brochure_button{
@@ -3201,3 +3225,103 @@ font-weight: 600;
             line-height: inherit
         }
     }
+
+
+
+    /*graph section*/
+.analytic{
+    background-color: white;
+}
+.mobile_left_top{
+    display: none;
+}
+.left_top{
+    writing-mode: vertical-rl;
+   
+           
+			text-align: left;
+			position: inherit;
+			bottom: 0;
+			left: 0;
+           
+			transform: translate(-90%, 0);
+			font-size: 70px;
+			font-weight: bold;
+			color: black;
+            background-color: white;
+			
+		
+          
+    margin-top: 10%;
+
+
+  
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    white-space: nowrap;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+
+}
+.left_top span{
+    color: #fcac00;
+}
+.country{
+  width: 100%;
+  aspect-ratio: 3/2;
+  /*padding: 40px 0; */
+  margin: auto;
+  
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  color: #4883a1;
+}
+.graph_explin p{
+color: #4883a1;
+
+}
+.chart_column{
+    margin-top: 15% !important;
+}
+.graph_map img{
+    width: 100%;
+}
+svg{
+    border-radius: 7px !important;
+}
+@media only screen and (max-width: 541px) {
+    .left_top{
+        display: none;
+    } 
+    .graph_explin .row .col-3{
+        width: -webkit-fill-available !important;
+          
+    } 
+    .graph_explin .row .col-3 img{
+        width: 70%;
+    } 
+    .graph_explin .row .col-9{
+       width: 100%;
+    }
+    .analytic .row .col-6{
+        width: -webkit-fill-available !important; 
+    }
+     .graph_explin{
+        margin-left: 20%;
+    }
+    .mobile_left_top{
+        display: block;
+        text-align: center;
+        font-size: 50px;
+    }
+    .mobile_left_top span{
+        color: rgb(219, 219, 52);
+    }
+}
+
+@media only screen and (max-width: 913px) {
+    .left_top{
+        margin-left: 102%;
+    }
+}
