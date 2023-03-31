@@ -1081,7 +1081,7 @@ padding-bottom: 2%;
 #oBack_product::first-letter{  
     color: transparent;
     background-image: url("../images/our_backgroung-modified.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: initial;  
     padding-right: 2.9%;
